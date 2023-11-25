@@ -17,15 +17,15 @@
     </style>
 </head>
 <body>
-    <h1>Експедитори</h1>
+    <h1><Datag>Водіі</Datag></h1>
 
+    <a href="index.html">Експедитори</a>
     <a href="gruz.html">Вантажники</a>
-    <a href="driver.html">Водіі</a>
     <div id="contacts"></div>
 
     <script>
         // Загрузка данных из внешнего файла
-        fetch('phonebook.json')
+        fetch('phonebookDriver.json')
             .then(response => response.json())
             .then(data => {
                 var contactsDiv = document.getElementById('contacts');
