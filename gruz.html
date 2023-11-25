@@ -17,15 +17,14 @@
     </style>
 </head>
 <body>
-    <h1>Експедитори</h1>
+    <h1>Грузчики</h1>
 
-    <a href="gruz.html">Вантажники</a>
-    <a href="gruz.html">Водіі</a>
+    <a href="index.html">Експедитори</a>
     <div id="contacts"></div>
 
     <script>
         // Загрузка данных из внешнего файла
-        fetch('phonebook.json')
+        fetch('phonebookGruz.json')
             .then(response => response.json())
             .then(data => {
                 var contactsDiv = document.getElementById('contacts');
