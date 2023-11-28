@@ -35,8 +35,8 @@
                     var contactDiv = document.createElement('div');
                     contactDiv.innerHTML = `
                         <h2>${contact.name}</h2>
-                        <span class="buttonLabel"><button onclick="callNumber('${contact.work}')">Рабочий</button></span>
-                        <span class="buttonLabel"><button onclick="callNumber('${contact.home}')">Домашний</button></span>
+                        <span class="buttonLabel"><button onclick="callNumber('${contact.work}')">${contact.work}</button></span>
+                        <span class="buttonLabel"><button onclick="callNumber('${contact.home}')">${contact.home}</button></span>
                         <hr>
                     `;
                     contactsDiv.appendChild(contactDiv);
