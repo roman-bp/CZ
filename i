@@ -1,2 +1,0 @@
-<span class="buttonLabel"><button onclick="callNumber('${contact.work}')">Рабочий</button></span>
-                <span class="buttonLabel"><button onclick=callNumber('${contact.home}')">Домашний</button></span>

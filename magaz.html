@@ -24,16 +24,16 @@
     </style>
 </head>
 <body>
-    <h1>Вантажники</h1>
+    <h1>Магазини</h1>
 
     <a href="index.html">Експедитори</a>
     <a href="driver.html">Водіі</a>
-    <a href="magaz.html">Mагазини</a>
+    <a href="gruz.html">Вантажники</a>
     <div id="contacts"></div>
 
     <script>
         // Загрузка данных из внешнего файла
-        fetch('phonebookGruz.json')
+        fetch('phonebookMagaz.json')
             .then(response => response.json())
             .then(data => {
                 var contactsDiv = document.getElementById('contacts');
